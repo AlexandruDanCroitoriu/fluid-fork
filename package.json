@@ -5,7 +5,7 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' shopify hydrogen build --codegen",
+    "build": "NODE_OPTIONS='--max-old-space-size=8192' shopify hydrogen build --codegen",
     "dev": "shopify hydrogen dev --codegen",
     "preview": "shopify hydrogen preview --build",
     "lint": "eslint --no-error-on-unmatched-pattern .",
